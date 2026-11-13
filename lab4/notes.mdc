@@ -1,9 +1,0 @@
-Ans(q1): The `--global` flag tells Git to apply these configuration settings (your name and email) to every repository on your entire user account system-wide.
-
-If you leave it out, Git will only apply the settings locally to the specific repository you are currently working in. If you are not inside a Git repository yet, the command will fail with an error.
-
-Ans(q2): I saw a hidden folder called .git. Normal ls hides it because it starts with a period, but ls -a shows all files including hidden ones.
-Inside the .git folder, Git stores all the tracking data for the repository. There are files like config for local repo settings, HEAD to point to the current branch, and folders like objects and refs which store the actual commit history and data
-
-
-Ans(q3): x
